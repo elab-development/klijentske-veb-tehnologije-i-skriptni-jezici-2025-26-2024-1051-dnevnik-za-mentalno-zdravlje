@@ -1,0 +1,90 @@
+.prijava {
+    background-color: #e0cdb2;
+    display: flex;
+    flex-direction: column;
+    min-height: 1024px;
+    min-width: 1440px;
+    width: 100%;
+}
+
+.prijava .text-wrapper-4 {
+    color: #8183a0;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 70px;
+    font-weight: 700;
+    height: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 642px;
+    margin-top: 71px;
+    white-space: nowrap;
+    width: 371px;
+}
+
+.prijava .text-wrapper-5 {
+    color: #6c739c;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    height: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 78px;
+    margin-top: 68px;
+    white-space: nowrap;
+    width: 211px;
+}
+
+.prijava .lozinka {
+    color: transparent;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    height: 68px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 78px;
+    margin-top: 58px;
+    width: 309px;
+}
+
+.prijava .span{
+    color: #6c739c;
+}
+
+.prijava .text-wrapper-6 {
+    color: #8183a0;
+}
+
+.prijava .group-2 {
+    height: 84px;
+    margin-left: 86px;
+    margin-top: 58px;
+    position: relative;
+    width: 309px;
+}
+
+.prijava .rectangle-2 {
+    background-color: #7b7e9f;
+    border-radius: 30px;
+    flex-direction: column;
+    height: 84px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.prijava .text-wrapper-7 {
+    color: #ebdcb9;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    height: 65px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 22px;
+    position: absolute;
+    white-space: nowrap;
+    width: 211px;
+}
