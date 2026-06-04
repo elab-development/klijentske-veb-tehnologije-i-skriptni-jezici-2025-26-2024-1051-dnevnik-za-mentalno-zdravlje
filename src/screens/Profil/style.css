@@ -1,0 +1,45 @@
+.stranica-profil {
+  background-color: #E6D7BC !important; 
+  min-height: calc(100vh - 140px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.profil-korisnika {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.profil-podaci {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: left;
+  margin-top: 50px !important;
+}
+
+.text-wrapper-10 {
+  color: #526081;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.ime-prezime-email {
+  color: #526081;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.8; 
+}
+
+.profil-kalendar {
+  margin-top: 20px;
+}
