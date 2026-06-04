@@ -11,7 +11,7 @@ export const Dnevnik = ()  => {
 
   return (
     <div className="stranica">
-      {/* Glavni naslov */}
+    
       <h1 className="glavni-naslov">Dnevnik</h1>
 
       <div className="red-inputa">

@@ -1,5 +1,5 @@
 import './style.css';
-import { Kalendar } from './Kalendar';
+import { Kalendar } from './Kalendar.tsx';
 
 export const Profil = () => {
   return (
