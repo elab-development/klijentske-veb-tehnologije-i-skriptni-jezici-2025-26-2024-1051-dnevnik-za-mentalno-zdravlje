@@ -1,0 +1,95 @@
+.stranica {
+  background-color: #ebdcb9; 
+  min-height: calc(100vh - 140px); 
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; 
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+.glavni-naslov {
+  color: #6c739c;
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+
+.red-inputa {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+
+
+.polje {
+  display: flex;
+  align-items: baseline;
+  width: 45%;
+}
+
+.polje label {
+  color: #526081;
+  font-size: 24px;
+  font-style: italic;
+  margin-right: 15px;
+}
+
+.polje input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #526081;
+  outline: none;
+  color: #526081;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.dnevnik-tekst {
+  width: 100%;
+  max-width: 900px;
+  height: 350px;
+  background-color: transparent;
+  border: 3px solid #526081;
+  border-radius: 25px;
+  padding: 25px;
+  font-size: 22px;
+  color: #526081;
+  outline: none;
+  resize: none; 
+  box-sizing: border-box;
+}
+
+.dnevnik-tekst::placeholder {
+  color: #526081;
+  opacity: 0.7;
+}
+
+.strelica-button {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  background-color: #A3B1C9;
+  border: none;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.strelica-button:hover {
+  background-color: #526081; 
+}
