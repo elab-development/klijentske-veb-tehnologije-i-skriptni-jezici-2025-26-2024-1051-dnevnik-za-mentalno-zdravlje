@@ -8,9 +8,10 @@ body {
   background-color: #e0cde2; 
   font-family: "Josefin Sans-Bold", Helvetica;
   min-height: 100vh;
-  
   display: flex;
-  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
@@ -19,10 +20,6 @@ body {
   max-width: 850px;
   padding: 40px 20px;
   margin: 0 auto;
-  flex: 1; 
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
 }
 
 .naslov {
@@ -98,15 +95,3 @@ body {
   transform: translateY(-1px); 
 }
 
-footer {
-  width: 100%;
-  background-color: #5d678d; 
-  padding: 20px 40px;
-  margin-top: auto; 
-}
-
-.footer-sadrzaj {
-  display: flex;
-  gap: 40px;
-  color: #ffffff;
-}
