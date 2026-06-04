@@ -9,7 +9,7 @@ export const Prijava = ()  => {
 return (
     <div className="prijava">
         <div className="text-wrapper-4">Prijavi se</div>
-        <div className="text-wrapper-5">"Email:"</div>
+        <div className="text-wrapper-5">Email:</div>
         <p className="lozinka">
             <span className="span">Lozinka</span>
             <span className="text-wrapper-6">:</span>
