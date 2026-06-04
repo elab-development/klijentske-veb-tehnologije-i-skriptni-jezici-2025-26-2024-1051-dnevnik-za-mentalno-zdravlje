@@ -16,6 +16,23 @@
     outline-offset: 2px;
   }
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #ebdcb9; 
+}
+
+#root {
+  width: 100%;
+}
+.nav-meni {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 .hero {
   position: relative;
@@ -181,4 +198,21 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+.glavni-footer {
+  background-color: #5d678a; 
+  color: #ebdcb9;
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  gap: 60px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.footer-kolona {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
