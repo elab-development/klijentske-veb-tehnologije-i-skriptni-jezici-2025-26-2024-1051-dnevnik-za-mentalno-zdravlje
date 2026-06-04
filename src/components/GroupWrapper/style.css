@@ -1,0 +1,36 @@
+.group-wrapper{
+    background-color: #6c739c;
+    height: 173px;
+    position: relative;
+    top: 901px;
+    width: 1440px;
+}
+
+.group-wrapper .kontakt {
+    color: #e0cdb2;
+    font-family: "Josefin Sans", Halvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 30.89%;
+    left: 4.03%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19.51%;
+    width: 7.85%;
+}
+
+.group-wrapper .email-oslobodimisli {
+    color: #e0cdb2;
+    font-family: "Josefin Sans", Halvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 28.46%;
+    left: 19.79%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21.95%;
+    width: 17.85%;
+}
+
