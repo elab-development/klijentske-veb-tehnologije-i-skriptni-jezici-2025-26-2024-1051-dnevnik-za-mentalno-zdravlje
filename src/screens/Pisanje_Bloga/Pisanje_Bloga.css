@@ -1,0 +1,111 @@
+.pisanje-stranica-kontejner {
+    width: 100%;
+    min-height: calc(100vh - 160px); 
+    background-color: #ebdcb9; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", Halvetica;
+}
+
+
+.Pisanje_Bloga {
+    width: 100%;
+    max-width: 900px;
+}
+
+
+.glavni-naslov {
+    text-align: center;
+    color: #727ca3; 
+    font-size: 42px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.blog-forma {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.forma-gornji-red {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.forma-grupa {
+    display: flex;
+    align-items: flex-end; 
+    flex: 1;
+}
+
+.labela-stil {
+    font-size: 24px;
+    color: #727ca3;
+    font-style: italic;
+    margin-right: 12px;
+    white-space: nowrap;
+}
+
+.input-naslov, .input-datum {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #727ca3;
+    font-size: 20px;
+    color: #727ca3;
+    padding: 5px;
+    outline: none;
+}
+
+
+.blog-content-area {
+    width: 100%;
+}
+
+.textarea-sadrzaj {
+    width: 100%;
+    height: 280px;
+    background-color: transparent;
+    border: 2px solid #727ca3;
+    border-radius: 20px; 
+    padding: 20px;
+    font-size: 18px;
+    color: #727ca3;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.textarea-sadrzaj::placeholder {
+    color: #929cb3;
+}
+
+
+.button-zona {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.dugme-objavi {
+    background-color: #727ca3;
+    color: #ebdcb9;
+    border: none;
+    padding: 12px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px; 
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.dugme-objavi:hover {
+    background-color: #5a6385;
+    color: #ffffff;
+}
