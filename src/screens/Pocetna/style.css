@@ -1,5 +1,5 @@
 .pocetna-container {
-  background-color: #ebdcb9 !important; 
+  background-color: #e0cdb2 !important; 
   min-height: calc(100vh - 90px - 80px); 
   display: flex;
   flex-direction: column;
@@ -10,16 +10,16 @@
 }
 
 .glavni-naslov {
-  color: #6a7495; 
-  font-size: 100px; 
+  color: #6c739c; 
+  font-size: 130px; 
   font-weight: bold;
   margin: 0;
-  font-family: 'sans-serif', Arial;
+  font-family: "Josefin Sans", Halvetica; 
 }
 
 .zapocni-dugme {
-  background-color: #7b84a1; 
-  color: #ebdcb9; 
+  background-color: #6c739c; 
+  color: #e0cdb2; 
   font-size: 28px;
   font-weight: bold;
   padding: 15px 60px;
@@ -30,5 +30,5 @@
 }
 
 .zapocni-dugme:hover {
-  background-color: #6a7495;
+  background-color: #6c739c;
 }
