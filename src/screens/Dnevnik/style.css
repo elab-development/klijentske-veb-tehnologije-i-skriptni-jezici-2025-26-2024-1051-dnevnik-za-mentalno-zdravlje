@@ -1,5 +1,5 @@
 .stranica {
-  background-color: #ebdcb9; 
+  background-color: #e0cdb2; 
   min-height: calc(100vh - 140px); 
   padding: 40px 100px;
   display: flex;
@@ -52,10 +52,15 @@
   font-size: 20px;
   padding: 5px;
 }
-
+.dnevnik-prozor {
+  width: 100%;
+  max-width: 1000px; 
+  margin: 0 auto;    
+  padding: 0 20px;   
+  box-sizing: border-box;
+}
 .dnevnik-tekst {
   width: 100%;
-  max-width: 900px;
   height: 350px;
   background-color: transparent;
   border: 3px solid #526081;

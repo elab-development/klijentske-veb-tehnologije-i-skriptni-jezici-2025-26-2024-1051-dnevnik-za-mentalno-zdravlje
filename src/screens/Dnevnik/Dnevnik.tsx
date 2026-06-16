@@ -37,6 +37,7 @@ export const Dnevnik = ()  => {
 
       <div className="dnevnik-prozor">
         <textarea
+          className="dnevnik-tekst"
           placeholder="Dragi dnevniče,..."
           value={tekst}
           onChange={(e) => setTekst(e.target.value)}
