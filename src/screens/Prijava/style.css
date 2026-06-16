@@ -62,6 +62,9 @@
     margin-top: 58px;
     position: relative;
     width: 309px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .prijava .rectangle-2 {
