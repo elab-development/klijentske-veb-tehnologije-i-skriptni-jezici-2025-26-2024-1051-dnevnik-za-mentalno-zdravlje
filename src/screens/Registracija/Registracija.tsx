@@ -4,7 +4,7 @@ import './style.css';
 
 export const Registracija = () => {
   const navigate = useNavigate();
-
+  
   const [formData, setFormData] = useState({
     ime: '',
     prezime: '',
@@ -20,7 +20,7 @@ export const Registracija = () => {
 
   
   const handleSubmit = (e: React.SubmitEvent) => {
-    e.preventDefault(); // Sprečava osvežavanje stranice
+    e.preventDefault();
     console.log('Podaci za registraciju:', formData);
     navigate('/Pocetna');
   };
