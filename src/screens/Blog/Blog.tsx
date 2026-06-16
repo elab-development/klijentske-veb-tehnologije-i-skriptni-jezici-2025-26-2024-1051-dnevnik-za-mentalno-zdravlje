@@ -41,7 +41,7 @@ export const Blog: React.FC = () => {
 
   return (
   <div className="blog-container">
-    {/* Stari meni (header) je obrisan odavde */}
+    
     
     <main className="main-content">
       <h1 className="page-title">Blog</h1>
