@@ -9,9 +9,11 @@ body {
   font-family: "Josefin Sans-Bold", Helvetica;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  position: relative; 
+  padding-bottom: 60px;
 }
 
 
@@ -20,6 +22,10 @@ body {
   max-width: 850px;
   padding: 40px 20px;
   margin: 0 auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .naslov {

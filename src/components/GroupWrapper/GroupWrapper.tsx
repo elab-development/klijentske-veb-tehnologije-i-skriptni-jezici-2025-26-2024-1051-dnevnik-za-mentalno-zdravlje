@@ -1,21 +1,28 @@
-import type { JSX } from "react";
-import "./style.css";
+import React from "react";
+import "./style.css"; 
 
-export interface GroupWrapperProps {
-    className: string;
+interface GroupWrapperProps {
+  children: React.ReactNode;
 }
 
-export const GroupWrapper = ({ className }: { className: string }) => {
+export const GroupWrapper = ({ children }: GroupWrapperProps) => {
   return (
-    <footer className="glavni-footer">
-      <div className="footer-kolona">
-        <strong>Kontakt:</strong>
-        <span>060 123 456</span>
-      </div>
-      <div className="footer-kolona">
-        <strong>Email:</strong>
-        <span>oslobodimisli@gmail.com</span>
-      </div>
-    </footer>
+    <div className="group-wrapper-kontejner">
+
+      <main className="wrapper-sadrzaj">
+        {children}
+      </main>
+     
+      <footer className="moj-futer">
+        <div className="futer-kolona">
+          <h3>Kontakt:</h3>
+          <p>060 123 456</p>
+        </div>
+        <div className="futer-kolona">
+          <h3>Email:</h3>
+          <p>oslobodimisli@gmail.com</p>
+        </div>
+      </footer>
+    </div>
   );
 };

@@ -26,6 +26,7 @@ export const Registracija = () => {
   };
 
   return (
+    <div className="stranica-kontejner">
     <main className="glavni-sadrzaj">
       <h1 className="naslov">Registracija</h1>
 
@@ -63,6 +64,7 @@ export const Registracija = () => {
         </div>
       </form>
     </main>
+    </div>
   );
 };
 
