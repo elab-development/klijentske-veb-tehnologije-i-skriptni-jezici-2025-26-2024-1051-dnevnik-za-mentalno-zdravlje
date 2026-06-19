@@ -58,6 +58,17 @@ export const Pitalice = (): JSX.Element => {
                         Sačuvaj
                     </button>
                 </div>
+                <div className="paginacija-kontejner">
+                    <button className="paginacija-strelica" onClick={() => navigate("/dnevnik")}>
+                        &larr; Prethodna
+                    </button>
+                    <button className="paginacija-broj" onClick={() => navigate("/dnevnik")}>
+                        1
+                    </button>
+                    <span className="aktivna-strana">2</span>
+                </div>
+
+
             </main>
 
         

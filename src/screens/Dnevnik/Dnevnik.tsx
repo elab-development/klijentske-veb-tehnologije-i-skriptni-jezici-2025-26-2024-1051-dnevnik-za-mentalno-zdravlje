@@ -42,8 +42,12 @@ export const Dnevnik = ()  => {
           value={tekst}
           onChange={(e) => setTekst(e.target.value)}
         />
-        
+        <div className="paginacija-kontejner">
+          <span className="aktivna-strana">1</span>
+          <button className="paginacija-broj" onClick={() => navigate('/pitalice')}>2</button>
+
         <button className="strelica-button" onClick={() => navigate('/pitalice')}></button>
+        </div>
       </div>
     </div>
   );
